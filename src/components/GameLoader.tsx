@@ -51,9 +51,31 @@ function GameLoader(props: GameLoaderProps) {
   }
 
   return (
-    <div className="game-loader">
-      <h1>Jeopardy Player</h1>
-      <p>Designed by Brian Yu</p>
+    <div className="game-loader" style={{ position: 'relative' }}>
+      <img 
+        src="/albert.png" 
+        alt="Albert Einstein" 
+        style={{ 
+          position: 'absolute',
+          right: '20px',
+          top: '160px',
+          maxWidth: '370px',
+          height: 'auto'
+        }} 
+      />
+      <img 
+        src="/chandra.png" 
+        alt="Chandra Observatory" 
+        style={{ 
+          position: 'absolute',
+          left: '20px',
+          top: '220px',
+          maxWidth: '425px',
+          height: 'auto'
+        }} 
+      />
+      <h1>Black Hole Jeopardy</h1>
+      <p>By Zachary Menard and Logan Ruzzier with inspiration from Brian Yu</p>
       <hr />
       <h2>Play a Game</h2>
       <input type="file" name="file" onChange={handleGameUpload} />
@@ -66,6 +88,11 @@ function GameLoader(props: GameLoaderProps) {
           <button onClick={downloadSampleGame}>Download Configuration</button>
         </div>
       </div>
+      <img 
+        src="/black_hole_binary.png" 
+        alt="Jeopardy Logo" 
+        style={{ display: 'block', margin: '20px auto', maxWidth: '500px', height: 'auto' }} 
+      />
     </div>
   );
 }
