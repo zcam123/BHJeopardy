@@ -2,7 +2,7 @@
   "name": "jeopardy",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://jeopardy.brianyu.me/",
+  "homepage": "https://zcam123.github.io/BHJeopardy",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
