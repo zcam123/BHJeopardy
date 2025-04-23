@@ -180,6 +180,7 @@ function App() {
 
     return (
       <div className="app">
+        {/* Commenting out double jeopardy button
         {currentCategoryIndex === null &&
           currentClueIndex === null &&
           allowProceedToDouble && (
@@ -189,6 +190,7 @@ function App() {
               </button>
             </div>
           )}
+        */}
         {currentCategoryIndex === null &&
           currentClueIndex === null &&
           allowProceedToFinal && (
