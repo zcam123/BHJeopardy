@@ -22,11 +22,11 @@
                     {
                         "value": 800,
                         "clue": "These three types of observations make up all astronomical 'messengers'",
-                        "solution": "WGravitational waves, electromagnetic radiation, elementary particles"
+                        "solution": "Gravitational waves, electromagnetic radiation, elementary particles"
                     },
                     {
                         "value": 1000,
-                        "clue": "This recent discovery about dark energy's time dependence suggests the universe may end in a 'big crunch'",
+                        "clue": "This recent discovery has shattered our long standing understanding of dark energy",
                         "solution": "Dark energy is time-dependent rather than constant"
                     }
                 ]
@@ -41,7 +41,7 @@
                     },
                     {
                         "value": 400,
-                        "clue": "This astrophysicist first calculated mass limits leading to neutron stars and black holes",
+                        "clue": "This astrophysicist first calculated the mass limits leading to neutron stars and black holes",
                         "solution": "Subrahmanyan Chandrashekar"
                     },
                     {
@@ -76,7 +76,7 @@
                     },
                     {
                         "value": 600,
-                        "clue": "This NASA mission first detected gravitational waves with an extraplanetary sensor",
+                        "clue": "This NASA mission was the first attempt to detect gravitational waves with an extraplanetary sensor",
                         "solution": "Apollo 17"
                     },
                     {
@@ -96,7 +96,7 @@
                 "clues": [
                     {
                         "value": 200,
-                        "clue": "These two stellar objects precede the formation of a black hole",
+                        "clue": "These two types of stellar objects precede the formation of a black hole",
                         "solution": "White dwarf and neutron star"
                     },
                     {
@@ -116,7 +116,7 @@
                     },
                     {
                         "value": 1000,
-                        "clue": "When a supernova occurs, this particle type is detected first",
+                        "clue": "When a supernova occurs, these particles are detected first",
                         "solution": "Neutrinos"
                     }
                 ]
