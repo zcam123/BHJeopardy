@@ -121,6 +121,7 @@ function GameLoader(props: GameLoaderProps) {
       >
         Play Game
       </button>
+      {/* Commenting out the Create Game section
       <hr />
       <h2>Create a Game</h2>
       <div className="create-your-own">
@@ -130,10 +131,16 @@ function GameLoader(props: GameLoaderProps) {
           <button onClick={downloadSampleGame}>Download Configuration</button>
         </div>
       </div>
+      */}
       <img 
         src={process.env.PUBLIC_URL + "/black_hole_binary.png"} 
         alt="test" 
-        style={{ display: 'block', margin: '20px auto', maxWidth: '500px', height: 'auto' }} 
+        style={{ 
+          display: 'block', 
+          margin: '-40px auto 20px auto',
+          maxWidth: '500px', 
+          height: 'auto' 
+        }} 
       />
     </div>
   );
