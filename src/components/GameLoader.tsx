@@ -121,17 +121,6 @@ function GameLoader(props: GameLoaderProps) {
       >
         Play Game
       </button>
-      {/* Commenting out the Create Game section
-      <hr />
-      <h2>Create a Game</h2>
-      <div className="create-your-own">
-        To create a Jeopardy game, download the below game configuration file,
-        edit it to include your desired clues, and re-upload it here.
-        <div>
-          <button onClick={downloadSampleGame}>Download Configuration</button>
-        </div>
-      </div>
-      */}
       <img 
         src={process.env.PUBLIC_URL + "/black_hole_binary.png"} 
         alt="test" 
